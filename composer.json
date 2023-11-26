@@ -1,0 +1,17 @@
+{
+    "name": "dell/php-basic",
+    "autoload": {
+        "psr-4": {
+            "Shaon\\App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shaon",
+            "email": "shaon.softbdltd@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.5"
+    }
+}
