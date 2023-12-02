@@ -1,7 +1,6 @@
 <?php
 
 namespace Shaon\App\Http\Controllers;
-include('../../../config/app.php');
 
 class PostController extends BaseController
 {
@@ -18,7 +17,7 @@ class PostController extends BaseController
         ];
 
 
-        return $this->render('post', compact('name', 'posts', 'value'));
+        return $this->render('post', compact('name', 'posts'));
 
         // $content = file_get_contents(__DIR__.'/../../../resources/posts.php');
 
